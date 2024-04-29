@@ -21,19 +21,18 @@ if (isset($_GET['clear'])) {
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Gerenciador de Tarefas</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    
+    <link rel='stylesheet' type='text/css' media='screen' href='tarefas.css'>
 </head>
 <body>
 <div class="container">
     <div class="header">
-        <h1>Gerenciador de Tarefas</h1>
+        <h1>Gerenciador de <br>   Tarefas</h1>
     </div>
     <div class="form">
         <form action="" method="get">
             <label for="task_name">Tarefa: </label>
-            <input type="text" name="task_name" placeholder="Nome da tarefa">
-            <button type="submit">Cadastrar</button>
+            <input type="text" name="task_name" placeholder="Insira sua tarefa">
+            <button type="submit">Adicionar</button>
         </form>
     </div>
     <div class="separator"></div>
@@ -50,10 +49,10 @@ if (isset($_GET['clear'])) {
     </div>
     <form action="" method="get">
         <input type="hidden" name="clear" value="clear">
-        <button type="submit" class="btn-clear">Limpar Tarefas</button>
-    </form>
+        <button type="submit" class="btn-clear">Excluir Tarefas</button>
+    </form><br>
     <div class="footer">
-        <p>Desenvolvido por @larissassk</p>
+        <p>Desenvolvido por @Monolito PHP</p>
     </div>
 </div>
 </body>

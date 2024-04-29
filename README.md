@@ -1,6 +1,8 @@
 # Gerenciador de Tarefas (ToDoList)
 O Gerenciador de Tarefas é uma aplicação web desenvolvida em PHP, HTML e CSS, onde os usuários podem adicionar, visualizar e limpar tarefas de uma lista. 
 
+![gif](/gif/transf.gif)
+
 ## Recursos da linguagem PHP
 
 - **isset**: Verifica se uma variável está definida e não é nula.

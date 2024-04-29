@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
 body{
     background-color: #f3f3f5;
     color: #333;
@@ -53,7 +57,7 @@ body{
     background-color: #f0f0f5;
 }
 .form button{
-    background-color: #AB47BC;
+    background-color: #838bc9;
     height: 32px;
     border: none;
     border-radius: 1px;
@@ -62,7 +66,7 @@ body{
 
 }
 .form button:hover{
-    background-color: #CE93D8;
+    background-color: #175192;
 }
 .separator {
 background-color: #bbb;
@@ -87,10 +91,10 @@ margin-bottom: 12px;
     transform: background 0.3s;
 }
 .btn-clear:hover{
-    background-color:rebeccapurple ;
+    background-color:rgb(81, 20, 3) ;
 }
 .list-tasks ul li {
-    background-color: #4DB6AC;
+    background-color: #a4a1a1;
     height: 54px;
     border-radius: 4px;
     color: #fff;
@@ -104,10 +108,14 @@ margin-bottom: 12px;
     transition: background 0.3s;
 }
 .list-tasks ul li:hover{
-    background-color: #80CBC4;
+    background-color: #a4a1a1;
 }
 .footer {
     background-color: #f0f0f5;
     border-radius: 4px;
     padding: 12px;
+    width: 430px;
+    height: 40px;
+    font-size: small;
+    text-align: left;
 }
